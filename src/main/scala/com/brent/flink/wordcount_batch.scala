@@ -7,10 +7,10 @@ object wordcount_batch {
     val env = ExecutionEnvironment.getExecutionEnvironment
 
     // get input data
-    val text = env.readTextFile("/path/to/file")
+    val text = env.readTextFile("data/wordcount")
     import org.apache.flink.api.scala._
 
-    val counts = text.flatMap { _.toLowerCase.split("\\W+") filter { _.nonEmpty } }
+    val counts = text.flatMap { _.toLowerCase.split(" ") filter { _.nonEmpty } }
       .map { (_, 1) }
       .groupBy(0)
       .sum(1)

@@ -14,14 +14,15 @@ object wordcount_streaming {
 
     // port 表示需要连接的端口
     val port: Int = try {
-      ParameterTool.fromArgs(args).getInt("9000")
+//      ParameterTool.fromArgs(args).getInt("port")
+      9000
     } catch {
       case e: Exception => {
         System.err.println("No port specified. Please run 'SocketWindowWordCount --port <port>'")
+
         return
       }
     }
-
     // 获取运行环境
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
 
@@ -29,13 +30,14 @@ object wordcount_streaming {
     val text = env.socketTextStream("localhost",port,'\n')
 
     //需要加上这一行隐式转换 否则在调用flatmap方法的时候会报错
-    import org.apache.flink.api.scala
     import org.apache.flink.streaming.api.scala._
 //    Error:(31, 15) could not find implicit value for evidence parameter of type org.apache.flink.api.common.typeinfo.TypeInformation[String]
     val result = text
       .flatMap(w => w.split(" "))
       .map(WordWithCount(_,1))
       .keyBy(_.word)
+//        .countWindow(3)
+
       .timeWindow(Time.seconds(5), Time.seconds(1))
       .sum("count")
 
