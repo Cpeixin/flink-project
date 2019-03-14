@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7f288d-daf7-4194-abd1-5cb31259393c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/brent/flink/table/SqlOverviewITCase.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anon$2$$anon$1.class" afterPath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anon$2$$anon$1.class" />
@@ -396,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552576395021</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="引入Gson">
+      <created>1552576431980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552576431980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,7 +445,8 @@
     <MESSAGE value="code is ok" />
     <MESSAGE value="程序数据" />
     <MESSAGE value="basicApi code" />
-    <option name="LAST_COMMIT_MESSAGE" value="basicApi code" />
+    <MESSAGE value="引入Gson" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入Gson" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
