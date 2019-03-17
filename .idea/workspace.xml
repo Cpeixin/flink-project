@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7f288d-daf7-4194-abd1-5cb31259393c" name="Default" comment="add ignore file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="5e7f288d-daf7-4194-abd1-5cb31259393c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceKafkaCase.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anon$2$$anon$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anon$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$WordWithCount$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming$WordWithCount$4$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brent/flink/wordcount_streaming.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-project.iml" afterPath="$PROJECT_DIR$/flink-project.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,23 +18,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wordcount_streaming.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="477">
+              <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataSourceApiCase.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wordcount_streaming.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="49" />
+              <folding>
+                <element signature="e#35#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataSourceApiCase.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="400">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#35#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataSourceKafkaCase.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceKafkaCase.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#35#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/wordcount_batch.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/wordcount_streaming.scala" />
         <option value="$PROJECT_DIR$/data/basicApiCaseData" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/basicAPI/basicApiCase.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/basicAPI/tupleCase.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala" />
@@ -81,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/.gitignore" />
         <option value="$PROJECT_DIR$/target/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceKafkaCase.scala" />
       </list>
     </option>
   </component>
@@ -196,32 +212,6 @@
               <item name="flink-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="flink-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.flink:flink-java:1.7.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="flink-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.flink:flink-java:1.7.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flink-java-1.7.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.flink:flink-java:1.7.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flink-java-1.7.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.flink:flink-java:1.7.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flink-java-1.7.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -247,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.dataSourceApiCase">
+  <component name="RunManager" selected="Application.dataSourceKafkaCase">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -307,6 +297,25 @@
       <module name="flink-project" />
       <envs />
     </configuration>
+    <configuration name="dataSourceKafkaCase" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.brent.flink.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.brent.flink.streaming.dataSourceKafkaCase" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flink-project" />
+      <envs />
+    </configuration>
     <configuration name="tupleCase" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -334,25 +343,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.brent.flink.streaming.wordcount_streaming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-project" />
-      <envs />
-    </configuration>
-    <configuration name="wordcount_batch" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.brent.flink.streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.brent.flink.wordcount_batch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,18 +416,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.wordcount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.wordcount_batch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.basicApiCase" />
-      <item index="3" class="java.lang.String" itemvalue="Application.tupleCase" />
-      <item index="4" class="java.lang.String" itemvalue="Application.dataSourceApiCase" />
+      <item index="1" class="java.lang.String" itemvalue="Application.basicApiCase" />
+      <item index="2" class="java.lang.String" itemvalue="Application.tupleCase" />
+      <item index="3" class="java.lang.String" itemvalue="Application.dataSourceApiCase" />
+      <item index="4" class="java.lang.String" itemvalue="Application.dataSourceKafkaCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.dataSourceApiCase" />
-        <item index="1" class="java.lang.String" itemvalue="Application.tupleCase" />
-        <item index="2" class="java.lang.String" itemvalue="Application.basicApiCase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.wordcount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.wordcount_batch" />
+        <item index="0" class="java.lang.String" itemvalue="Application.dataSourceKafkaCase" />
+        <item index="1" class="java.lang.String" itemvalue="Application.dataSourceApiCase" />
+        <item index="2" class="java.lang.String" itemvalue="Application.tupleCase" />
+        <item index="3" class="java.lang.String" itemvalue="Application.basicApiCase" />
+        <item index="4" class="java.lang.String" itemvalue="Application.wordcount" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552832009059</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add other read data">
+      <created>1552832134303</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552832134303</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,8 +556,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.504884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.495116" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.495116" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.495116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27106228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -620,23 +617,14 @@
     <MESSAGE value="tableApi code case" />
     <MESSAGE value="readFile  function()" />
     <MESSAGE value="add ignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ignore file" />
+    <MESSAGE value="add other read data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other read data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/basicAPI/tupleCase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -666,7 +654,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="49" />
           <folding>
-            <element signature="e#34#81#0" expanded="true" />
+            <element signature="e#34#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,7 +664,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
-            <element signature="e#34#104#0" expanded="true" />
+            <element signature="e#34#104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,20 +853,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/basicAPI/tupleCase.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#34#104#0" expanded="true" />
+            <element signature="e#34#104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,7 +900,7 @@
         <state relative-caret-position="297">
           <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="49" />
           <folding>
-            <element signature="e#34#81#0" expanded="true" />
+            <element signature="e#34#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,11 +909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,20 +977,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="400">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceApiCase.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/wordcount_streaming.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="49" />
           <folding>
-            <element signature="e#35#88#0" expanded="true" />
+            <element signature="e#35#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/brent/flink/streaming/dataSourceKafkaCase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
