@@ -16,19 +16,21 @@ object dataSourceApiCase {
     val path = "data/dataSource/data"
     val format = new TextInputFormat(new Path(path))
 
-    val typeInfo = BasicTypeInfo.STRING_TYPE_INFO
-
-
-    val original = env.readFile(format, "data/dataSource/data")
-    val original_1 = env.readTextFile("data/dataSource/data")
-
+//基于文件
+//    val original = env.readFile(format, "data/dataSource/data")
+//    val original_1 = env.readTextFile("data/dataSource/data")
 //    val original_2 = env.readFile(format, path, FileProcessingMode.PROCESS_CONTINUOUSLY, 1L)
-    val original_2 = env.readFile(format, path, FileProcessingMode.PROCESS_ONCE, 1L)
-
-
+//    val original_2 = env.readFile(format, path, FileProcessingMode.PROCESS_ONCE, 1L)
 //    original.print()
 //    original_1.print()
-    original_2.print()
+//    original_2.print()
+
+//基于集合
+    val seq = Seq("brent","love","she")
+    val original_3 = env.fromCollection(seq)
+    original_3.print()
+
+//基于套接字略
 
     env.execute()
 
